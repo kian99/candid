@@ -1,4 +1,4 @@
-module github.com/canonical/candid
+module github.com/kian99/candid
 
 require (
 	github.com/coreos/go-oidc v0.0.0-20170119174436-2cc7913f9f6f
