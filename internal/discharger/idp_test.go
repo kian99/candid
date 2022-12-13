@@ -18,15 +18,15 @@ import (
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/bakery"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/internal/auth"
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/internal/discharger"
-	"github.com/canonical/candid/internal/identity"
-	"github.com/canonical/candid/internal/monitoring"
-	"github.com/canonical/candid/meeting"
-	"github.com/canonical/candid/params"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/internal/auth"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/internal/discharger"
+	"github.com/kian99/candid/internal/identity"
+	"github.com/kian99/candid/internal/monitoring"
+	"github.com/kian99/candid/meeting"
+	"github.com/kian99/candid/params"
+	"github.com/kian99/candid/store"
 )
 
 func TestIDP(t *testing.T) {

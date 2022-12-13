@@ -24,8 +24,8 @@ import (
 	"gopkg.in/httprequest.v1"
 	macaroon "gopkg.in/macaroon.v2"
 
-	"github.com/canonical/candid/candidclient"
-	"github.com/canonical/candid/params"
+	"github.com/kian99/candid/candidclient"
+	"github.com/kian99/candid/params"
 )
 
 // GroupListGroup is the group that users must belong to in order to

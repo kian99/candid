@@ -7,8 +7,8 @@ import (
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/bakery"
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/bakery/identchecker"
 
-	"github.com/canonical/candid/internal/auth"
-	"github.com/canonical/candid/params"
+	"github.com/kian99/candid/internal/auth"
+	"github.com/kian99/candid/params"
 )
 
 // opForRequest returns the operation that will be performed

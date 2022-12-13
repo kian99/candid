@@ -19,8 +19,8 @@ import (
 	"golang.org/x/crypto/nacl/box"
 	"gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/internal/debug"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/internal/debug"
 )
 
 func TestLogin(t *testing.T) {

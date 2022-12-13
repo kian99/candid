@@ -26,9 +26,9 @@ that it can fetch and build candid dependencies:
 
 ### Source
 
-Get the source from `github.com/canonical/candid`.
+Get the source from `github.com/kian99/candid`.
 
-    git clone https://github.com/canonical/candid
+    git clone https://github.com/kian99/candid
 
 It is recommended that you check out the source outside of any `$GOPATH`
 (`$HOME/go` by default). If you do wish to check out into a `$GOPATH`

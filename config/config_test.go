@@ -12,10 +12,10 @@ import (
 	qt "github.com/frankban/quicktest"
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/bakery"
 
-	"github.com/canonical/candid/config"
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/store"
-	_ "github.com/canonical/candid/store/memstore"
+	"github.com/kian99/candid/config"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/store"
+	_ "github.com/kian99/candid/store/memstore"
 )
 
 const testConfig = `

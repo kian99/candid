@@ -10,7 +10,7 @@ import (
 
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/store"
 )
 
 // SplitStoreSpecification splits a store specification string as

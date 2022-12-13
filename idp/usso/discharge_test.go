@@ -9,12 +9,12 @@ import (
 	qt "github.com/frankban/quicktest"
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/httpbakery"
 
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/usso"
-	"github.com/canonical/candid/idp/usso/internal/mockusso"
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/internal/discharger"
-	"github.com/canonical/candid/internal/identity"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/usso"
+	"github.com/kian99/candid/idp/usso/internal/mockusso"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/internal/discharger"
+	"github.com/kian99/candid/internal/identity"
 )
 
 func TestInteractiveDischarge(t *testing.T) {

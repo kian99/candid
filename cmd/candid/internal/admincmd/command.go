@@ -25,9 +25,9 @@ import (
 	"golang.org/x/net/publicsuffix"
 	"gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/candidclient"
-	"github.com/canonical/candid/params"
-	"github.com/canonical/candid/version"
+	"github.com/kian99/candid/candidclient"
+	"github.com/kian99/candid/params"
+	"github.com/kian99/candid/version"
 )
 
 // jujuLoggingConfigEnvKey matches osenv.JujuLoggingConfigEnvKey

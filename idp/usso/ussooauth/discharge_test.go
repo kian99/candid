@@ -10,14 +10,14 @@ import (
 	qt "github.com/frankban/quicktest"
 	"github.com/juju/usso"
 
-	"github.com/canonical/candid/candidclient/ussologin"
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/usso/internal/mockusso"
-	"github.com/canonical/candid/idp/usso/ussooauth"
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/internal/discharger"
-	"github.com/canonical/candid/internal/identity"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/candidclient/ussologin"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/usso/internal/mockusso"
+	"github.com/kian99/candid/idp/usso/ussooauth"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/internal/discharger"
+	"github.com/kian99/candid/internal/identity"
+	"github.com/kian99/candid/store"
 )
 
 func TestDischarge(t *testing.T) {

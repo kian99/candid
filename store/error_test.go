@@ -9,7 +9,7 @@ import (
 	qt "github.com/frankban/quicktest"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/store"
 )
 
 func TestNotFoundError(t *testing.T) {

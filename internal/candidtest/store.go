@@ -13,10 +13,10 @@ import (
 	aclstore "github.com/juju/aclstore/v2"
 	"github.com/juju/simplekv/memsimplekv"
 
-	"github.com/canonical/candid/internal/identity"
-	"github.com/canonical/candid/meeting"
-	"github.com/canonical/candid/store"
-	"github.com/canonical/candid/store/memstore"
+	"github.com/kian99/candid/internal/identity"
+	"github.com/kian99/candid/meeting"
+	"github.com/kian99/candid/store"
+	"github.com/kian99/candid/store/memstore"
 )
 
 // Store implements a test fixture that contains memory-based

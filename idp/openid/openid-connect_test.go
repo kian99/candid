@@ -26,13 +26,13 @@ import (
 	"gopkg.in/square/go-jose.v2/jwt"
 	"gopkg.in/yaml.v2"
 
-	"github.com/canonical/candid/config"
-	idppkg "github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/idptest"
-	"github.com/canonical/candid/idp/idputil"
-	"github.com/canonical/candid/idp/openid"
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/config"
+	idppkg "github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/idptest"
+	"github.com/kian99/candid/idp/idputil"
+	"github.com/kian99/candid/idp/openid"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/store"
 )
 
 var configTests = []struct {

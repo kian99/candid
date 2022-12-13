@@ -14,9 +14,9 @@ import (
 	"gopkg.in/errgo.v1"
 	"gopkg.in/httprequest.v1"
 
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/internal/identity"
-	"github.com/canonical/candid/params"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/internal/identity"
+	"github.com/kian99/candid/params"
 )
 
 func TestHandleErrors(t *testing.T) {

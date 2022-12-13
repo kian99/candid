@@ -13,8 +13,8 @@ import (
 	"github.com/frankban/quicktest/qtsuite"
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/bakery"
 
-	"github.com/canonical/candid/candidtest"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/candidtest"
+	"github.com/kian99/candid/store"
 )
 
 type showSuite struct {

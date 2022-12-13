@@ -1,10 +1,10 @@
 package mgostore
 
 import (
-	errgo "gopkg.in/errgo.v1"
 	mgo "github.com/juju/mgo/v2"
+	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/store"
 )
 
 // Params holds the specification for the parameters

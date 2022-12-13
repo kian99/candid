@@ -19,8 +19,8 @@ import (
 	"gopkg.in/httprequest.v1"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/canonical/candid/candidclient/ussodischarge"
-	"github.com/canonical/candid/params"
+	"github.com/kian99/candid/candidclient/ussodischarge"
+	"github.com/kian99/candid/params"
 )
 
 var _ httpbakery.Interactor = (*ussodischarge.Interactor)(nil)

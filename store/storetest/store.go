@@ -16,9 +16,9 @@ import (
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/bakery"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/internal/auth"
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/internal/auth"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/store"
 )
 
 var pk1 = bakery.MustGenerateKey().Public

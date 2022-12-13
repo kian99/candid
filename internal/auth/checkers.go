@@ -13,8 +13,8 @@ import (
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/httpbakery"
 	"gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/params"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/params"
+	"github.com/kian99/candid/store"
 )
 
 const (

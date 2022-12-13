@@ -11,8 +11,8 @@ import (
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/httpbakery"
 	"gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/candidclient"
-	"github.com/canonical/candid/candidtest"
+	"github.com/kian99/candid/candidclient"
+	"github.com/kian99/candid/candidtest"
 )
 
 func TestIdentityClient(t *testing.T) {

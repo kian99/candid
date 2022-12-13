@@ -10,7 +10,7 @@ import (
 
 	qt "github.com/frankban/quicktest"
 
-	"github.com/canonical/candid/idp/keystone/internal/keystone"
+	"github.com/kian99/candid/idp/keystone/internal/keystone"
 )
 
 var timeUnmarshalJSONTests = []struct {

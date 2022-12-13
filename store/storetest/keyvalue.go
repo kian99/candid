@@ -12,7 +12,7 @@ import (
 	"github.com/juju/simplekv"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/store"
 )
 
 type keyValueSuite struct {

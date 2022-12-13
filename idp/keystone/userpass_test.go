@@ -17,9 +17,9 @@ import (
 	"github.com/juju/qthttptest"
 	"gopkg.in/yaml.v2"
 
-	"github.com/canonical/candid/config"
-	keystoneidp "github.com/canonical/candid/idp/keystone"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/config"
+	keystoneidp "github.com/kian99/candid/idp/keystone"
+	"github.com/kian99/candid/store"
 )
 
 func TestUserPass(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	errgo "gopkg.in/errgo.v1"
 	httprequest "gopkg.in/httprequest.v1"
 
-	"github.com/canonical/candid/params"
+	"github.com/kian99/candid/params"
 )
 
 const Kind = "browser-redirect"

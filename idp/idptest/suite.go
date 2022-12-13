@@ -24,12 +24,12 @@ import (
 	"github.com/juju/simplekv"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/idputil"
-	"github.com/canonical/candid/idp/idputil/secret"
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/params"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/idputil"
+	"github.com/kian99/candid/idp/idputil/secret"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/params"
+	"github.com/kian99/candid/store"
 )
 
 // Fixture provides a test fixture that is helpful for testing identity

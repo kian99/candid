@@ -6,9 +6,9 @@ import (
 	qt "github.com/frankban/quicktest"
 	"gopkg.in/yaml.v2"
 
-	"github.com/canonical/candid/store"
-	"github.com/canonical/candid/store/mgostore"
-	"github.com/canonical/candid/store/storetest"
+	"github.com/kian99/candid/store"
+	"github.com/kian99/candid/store/mgostore"
+	"github.com/kian99/candid/store/storetest"
 )
 
 func TestUnmarshal(t *testing.T) {

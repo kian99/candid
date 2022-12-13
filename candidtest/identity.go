@@ -10,7 +10,7 @@ import (
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/bakery/identchecker"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/candidclient"
+	"github.com/kian99/candid/candidclient"
 )
 
 // identityClient implement identchecker.IdentityClient. This is used because

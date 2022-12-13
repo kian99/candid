@@ -14,11 +14,11 @@ import (
 	"github.com/juju/loggo"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/idputil"
-	"github.com/canonical/candid/idp/keystone/internal/keystone"
-	"github.com/canonical/candid/params"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/idputil"
+	"github.com/kian99/candid/idp/keystone/internal/keystone"
+	"github.com/kian99/candid/params"
+	"github.com/kian99/candid/store"
 )
 
 var logger = loggo.GetLogger("candid.idp.keystone")

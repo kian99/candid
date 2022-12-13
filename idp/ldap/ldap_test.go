@@ -10,11 +10,11 @@ import (
 	qt "github.com/frankban/quicktest"
 	"github.com/frankban/quicktest/qtsuite"
 
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/idptest"
-	"github.com/canonical/candid/idp/ldap"
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/idptest"
+	"github.com/kian99/candid/idp/ldap"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/store"
 )
 
 const idpPrefix = "http://idp.example.com"

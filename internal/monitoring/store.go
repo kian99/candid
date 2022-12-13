@@ -9,7 +9,7 @@ import (
 	"github.com/juju/loggo"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/store"
 )
 
 var logger = loggo.GetLogger("candid.internal.monitoring")

@@ -13,9 +13,9 @@ import (
 	"gopkg.in/errgo.v1"
 	"gopkg.in/httprequest.v1"
 
-	"github.com/canonical/candid/idp/idputil"
-	"github.com/canonical/candid/params"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/idp/idputil"
+	"github.com/kian99/candid/params"
+	"github.com/kian99/candid/store"
 )
 
 // legacyLoginRequest is a request to start a login to the identity manager

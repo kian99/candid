@@ -19,8 +19,8 @@ import (
 	"golang.org/x/crypto/nacl/box"
 	"gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/internal/identity"
-	"github.com/canonical/candid/params"
+	"github.com/kian99/candid/internal/identity"
+	"github.com/kian99/candid/params"
 )
 
 const cookieName = "debug-login"

@@ -1,6 +1,7 @@
 // Copyright 2021 Canonical Ltd.
 // Licensed under the AGPLv3, see LICENCE file for details.
 
+//go:build go1.16
 // +build go1.16
 
 package main
@@ -11,7 +12,7 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/canonical/candid"
+	"github.com/kian99/candid"
 )
 
 func loadTemplates(resourcePath string) (*template.Template, error) {

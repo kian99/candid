@@ -19,14 +19,14 @@ import (
 	"github.com/juju/cmd/v3"
 	"github.com/juju/simplekv/memsimplekv"
 
-	"github.com/canonical/candid"
-	"github.com/canonical/candid/candidtest"
-	"github.com/canonical/candid/cmd/candid/internal/admincmd"
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/static"
-	internalcandidtest "github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/store"
-	"github.com/canonical/candid/store/memstore"
+	"github.com/kian99/candid"
+	"github.com/kian99/candid/candidtest"
+	"github.com/kian99/candid/cmd/candid/internal/admincmd"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/static"
+	internalcandidtest "github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/store"
+	"github.com/kian99/candid/store/memstore"
 )
 
 type fixture struct {

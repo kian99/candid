@@ -9,7 +9,7 @@ import (
 	qt "github.com/frankban/quicktest"
 	"gopkg.in/yaml.v2"
 
-	"github.com/canonical/candid/config"
+	"github.com/kian99/candid/config"
 )
 
 var configTests = []struct {

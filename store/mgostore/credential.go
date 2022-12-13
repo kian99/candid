@@ -6,10 +6,10 @@ package mgostore
 import (
 	"context"
 
-	"github.com/canonical/candid/store"
-	"gopkg.in/errgo.v1"
 	"github.com/juju/mgo/v2"
 	"github.com/juju/mgo/v2/bson"
+	"github.com/kian99/candid/store"
+	"gopkg.in/errgo.v1"
 )
 
 type credentialDoc struct {

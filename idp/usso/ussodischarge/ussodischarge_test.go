@@ -24,13 +24,13 @@ import (
 	macaroon "gopkg.in/macaroon.v2"
 	yaml "gopkg.in/yaml.v2"
 
-	udclient "github.com/canonical/candid/candidclient/ussodischarge"
-	"github.com/canonical/candid/config"
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/idptest"
-	"github.com/canonical/candid/idp/usso/ussodischarge"
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/store"
+	udclient "github.com/kian99/candid/candidclient/ussodischarge"
+	"github.com/kian99/candid/config"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/idptest"
+	"github.com/kian99/candid/idp/usso/ussodischarge"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/store"
 )
 
 func TestConfig(t *testing.T) {

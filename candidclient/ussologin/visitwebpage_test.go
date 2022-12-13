@@ -15,7 +15,7 @@ import (
 	errgo "gopkg.in/errgo.v1"
 	"gopkg.in/httprequest.v1"
 
-	"github.com/canonical/candid/candidclient/ussologin"
+	"github.com/kian99/candid/candidclient/ussologin"
 )
 
 func TestKind(t *testing.T) {

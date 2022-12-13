@@ -11,14 +11,14 @@ import (
 	"log"
 	"os"
 
+	mgo "github.com/juju/mgo/v2"
 	_ "github.com/lib/pq"
 	errgo "gopkg.in/errgo.v1"
-	mgo "github.com/juju/mgo/v2"
 
-	"github.com/canonical/candid/cmd/migrate-db/internal"
-	"github.com/canonical/candid/store"
-	"github.com/canonical/candid/store/mgostore"
-	"github.com/canonical/candid/store/sqlstore"
+	"github.com/kian99/candid/cmd/migrate-db/internal"
+	"github.com/kian99/candid/store"
+	"github.com/kian99/candid/store/mgostore"
+	"github.com/kian99/candid/store/sqlstore"
 )
 
 var (

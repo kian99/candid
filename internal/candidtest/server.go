@@ -19,10 +19,10 @@ import (
 	"github.com/juju/simplekv/memsimplekv"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/candidclient"
-	"github.com/canonical/candid/internal/auth"
-	"github.com/canonical/candid/internal/identity"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/candidclient"
+	"github.com/kian99/candid/internal/auth"
+	"github.com/kian99/candid/internal/identity"
+	"github.com/kian99/candid/store"
 )
 
 var DefaultTemplate = template.New("")

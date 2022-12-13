@@ -18,13 +18,13 @@ import (
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/httpbakery"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/static"
-	"github.com/canonical/candid/internal/auth"
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/internal/discharger"
-	"github.com/canonical/candid/internal/identity"
-	"github.com/canonical/candid/params"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/static"
+	"github.com/kian99/candid/internal/auth"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/internal/discharger"
+	"github.com/kian99/candid/internal/identity"
+	"github.com/kian99/candid/params"
 )
 
 // loginTemplate contains the template to use in login tests.

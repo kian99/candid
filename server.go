@@ -14,15 +14,15 @@ import (
 	"github.com/juju/utils/v2/debugstatus"
 	"gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/agent"
-	"github.com/canonical/candid/internal/debug"
-	"github.com/canonical/candid/internal/discharger"
-	"github.com/canonical/candid/internal/identity"
-	"github.com/canonical/candid/internal/mfa"
-	v1 "github.com/canonical/candid/internal/v1"
-	"github.com/canonical/candid/meeting"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/agent"
+	"github.com/kian99/candid/internal/debug"
+	"github.com/kian99/candid/internal/discharger"
+	"github.com/kian99/candid/internal/identity"
+	"github.com/kian99/candid/internal/mfa"
+	v1 "github.com/kian99/candid/internal/v1"
+	"github.com/kian99/candid/meeting"
+	"github.com/kian99/candid/store"
 )
 
 // Versions of the API that can be served.

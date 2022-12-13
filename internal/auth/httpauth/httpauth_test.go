@@ -17,10 +17,10 @@ import (
 	"github.com/juju/aclstore/v2"
 	"gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/internal/auth"
-	"github.com/canonical/candid/internal/auth/httpauth"
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/params"
+	"github.com/kian99/candid/internal/auth"
+	"github.com/kian99/candid/internal/auth/httpauth"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/params"
 )
 
 type authSuite struct {

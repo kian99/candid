@@ -15,12 +15,12 @@ import (
 	"gopkg.in/httprequest.v1"
 	envschemaform "gopkg.in/juju/environschema.v1/form"
 
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/keystone"
-	"github.com/canonical/candid/idp/keystone/internal/mockkeystone"
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/internal/discharger"
-	"github.com/canonical/candid/internal/identity"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/keystone"
+	"github.com/kian99/candid/idp/keystone/internal/mockkeystone"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/internal/discharger"
+	"github.com/kian99/candid/internal/identity"
 )
 
 type dischargeSuite struct {

@@ -6,7 +6,7 @@ import (
 	"github.com/juju/utils/v2/debugstatus"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/meeting"
+	"github.com/kian99/candid/meeting"
 )
 
 var backends = make(map[string]func(func(interface{}) error) (BackendFactory, error))

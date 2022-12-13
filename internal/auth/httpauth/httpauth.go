@@ -14,8 +14,8 @@ import (
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/httpbakery"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/internal/auth"
-	"github.com/canonical/candid/params"
+	"github.com/kian99/candid/internal/auth"
+	"github.com/kian99/candid/params"
 )
 
 // An Authorizer is used to authorize HTTP requests.

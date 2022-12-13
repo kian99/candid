@@ -16,10 +16,10 @@ import (
 	errgo "gopkg.in/errgo.v1"
 	"gopkg.in/httprequest.v1"
 
-	"github.com/canonical/candid/candidclient"
-	"github.com/canonical/candid/internal/auth"
-	"github.com/canonical/candid/params"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/candidclient"
+	"github.com/kian99/candid/internal/auth"
+	"github.com/kian99/candid/params"
+	"github.com/kian99/candid/store"
 )
 
 const (

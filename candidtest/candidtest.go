@@ -13,9 +13,9 @@ import (
 	"github.com/juju/aclstore/v2"
 	"github.com/juju/simplekv/memsimplekv"
 
-	"github.com/canonical/candid"
-	"github.com/canonical/candid/store"
-	"github.com/canonical/candid/store/memstore"
+	"github.com/kian99/candid"
+	"github.com/kian99/candid/store"
+	"github.com/kian99/candid/store/memstore"
 )
 
 type Testing interface {

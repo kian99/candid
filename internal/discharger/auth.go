@@ -6,7 +6,7 @@ package discharger
 import (
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/bakery"
 
-	"github.com/canonical/candid/internal/auth"
+	"github.com/kian99/candid/internal/auth"
 )
 
 // opForRequest returns the operation that will be performed

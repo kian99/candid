@@ -29,17 +29,17 @@ import (
 	"gopkg.in/httprequest.v1"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/canonical/candid/candidclient"
-	"github.com/canonical/candid/candidclient/redirect"
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/static"
-	"github.com/canonical/candid/internal/auth"
-	"github.com/canonical/candid/internal/candidtest"
-	"github.com/canonical/candid/internal/discharger"
-	"github.com/canonical/candid/internal/identity"
-	v1 "github.com/canonical/candid/internal/v1"
-	"github.com/canonical/candid/params"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/candidclient"
+	"github.com/kian99/candid/candidclient/redirect"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/static"
+	"github.com/kian99/candid/internal/auth"
+	"github.com/kian99/candid/internal/candidtest"
+	"github.com/kian99/candid/internal/discharger"
+	"github.com/kian99/candid/internal/identity"
+	v1 "github.com/kian99/candid/internal/v1"
+	"github.com/kian99/candid/params"
+	"github.com/kian99/candid/store"
 )
 
 var groupOp = bakery.Op{"group", "group"}

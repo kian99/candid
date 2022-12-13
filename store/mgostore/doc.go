@@ -10,7 +10,7 @@ import (
 	"github.com/juju/loggo"
 	"github.com/juju/mgo/v2/bson"
 
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/store"
 )
 
 var logger = loggo.GetLogger("candid.store.mgostore")

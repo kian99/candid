@@ -10,10 +10,10 @@ import (
 	"github.com/juju/postgrestest"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/meeting"
-	"github.com/canonical/candid/store"
-	"github.com/canonical/candid/store/sqlstore"
-	"github.com/canonical/candid/store/storetest"
+	"github.com/kian99/candid/meeting"
+	"github.com/kian99/candid/store"
+	"github.com/kian99/candid/store/sqlstore"
+	"github.com/kian99/candid/store/storetest"
 )
 
 func TestKeyValueStore(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/bakery/identchecker"
 	"gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/params"
+	"github.com/kian99/candid/params"
 )
 
 // Identity represents a Candid identity. It includes bakery.ACLIdentity but

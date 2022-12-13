@@ -21,9 +21,9 @@ import (
 	"golang.org/x/oauth2"
 	"gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/idp"
-	"github.com/canonical/candid/idp/idputil"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/idp"
+	"github.com/kian99/candid/idp/idputil"
+	"github.com/kian99/candid/store"
 )
 
 var logger = loggo.GetLogger("candid.idp.openid")

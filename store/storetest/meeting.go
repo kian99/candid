@@ -12,7 +12,7 @@ import (
 	qt "github.com/frankban/quicktest"
 	"github.com/frankban/quicktest/qtsuite"
 
-	"github.com/canonical/candid/meeting"
+	"github.com/kian99/candid/meeting"
 )
 
 // meetingSuite contains a set of tests for meeting.Store

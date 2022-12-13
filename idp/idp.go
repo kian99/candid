@@ -13,8 +13,8 @@ import (
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/httpbakery"
 	"github.com/juju/simplekv"
 
-	"github.com/canonical/candid/idp/idputil/secret"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/idp/idputil/secret"
+	"github.com/kian99/candid/store"
 )
 
 // A DischargeTokenCreator is used by the identity providers to create a

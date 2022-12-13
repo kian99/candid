@@ -11,7 +11,7 @@ import (
 	"github.com/juju/utils/v2/cache"
 	"gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/params"
+	"github.com/kian99/candid/params"
 )
 
 // GroupCache holds a cache of group membership information.

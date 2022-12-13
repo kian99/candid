@@ -6,8 +6,8 @@ import (
 	"github.com/juju/simplekv/memsimplekv"
 	"github.com/juju/utils/v2/debugstatus"
 
-	"github.com/canonical/candid/meeting"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/meeting"
+	"github.com/kian99/candid/store"
 )
 
 func init() {

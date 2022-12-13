@@ -15,14 +15,14 @@ parts:
     organize:
       candidsrv: bin/
     build-packages:
-     - bzr
-     - gcc
+      - bzr
+      - gcc
     build-snaps:
-     - go
+      - go
     prime:
-     - bin/bakery-keygen
-     - bin/candid
-     - bin/candidsrv
+      - bin/bakery-keygen
+      - bin/candid
+      - bin/candidsrv
     override-pull: |
       snapcraftctl pull
       snapcraftctl set-version "$(git describe --tags --dirty --abbrev=0)"
@@ -33,8 +33,8 @@ parts:
       GIT_VERSION=`git -C $SNAPCRAFT_PART_SRC describe --dirty`
       cp version/init.go.tmpl version/init.go
       gofmt -w -r "unknownVersion -> Version{GitCommit: \"${GIT_COMMIT}\", Version: \"${GIT_VERSION}\",}" version/init.go
-      GOBIN=${SNAPCRAFT_PART_INSTALL}/bin/ go install github.com/canonical/candid/cmd/candid
-      GOBIN=${SNAPCRAFT_PART_INSTALL}/bin/ go install github.com/canonical/candid/cmd/candidsrv
+      GOBIN=${SNAPCRAFT_PART_INSTALL}/bin/ go install github.com/kian99/candid/cmd/candid
+      GOBIN=${SNAPCRAFT_PART_INSTALL}/bin/ go install github.com/kian99/candid/cmd/candidsrv
       GOBIN=${SNAPCRAFT_PART_INSTALL}/bin/ go install gopkg.in/macaroon-bakery.v2/cmd/bakery-keygen@latest
 
   www-static:
@@ -49,18 +49,17 @@ parts:
     organize:
       templates: www/templates/
 
-
   # Dump scripts required to configure candidsrv
   scripts:
     plugin: dump
     source: ./snap/local/scripts
-    organize: 
+    organize:
       # Place wrapper in bin such that it can be called easily
       wrapper.sh: bin/
       manage_config.sh: scripts/
       handle_schema_upgrade.sh: bin/
       handle_schema_version_check.sh: bin/
-    filesets: 
+    filesets:
       include:
         - bin/wrapper.sh
         - scripts/manage_config.sh
@@ -74,10 +73,10 @@ parts:
     plugin: dump
     source: ./snap/local/hooks
     stage-snaps:
-    - yq
+      - yq
     stage-packages:
-    - jq
-    organize: 
+      - jq
+    organize:
       configure: snap/hooks/
 
 apps:
@@ -91,5 +90,5 @@ apps:
   candid:
     command: bin/candid
     plugs:
-     - home
-     - network
+      - home
+      - network

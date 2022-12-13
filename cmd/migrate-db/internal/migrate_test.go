@@ -12,9 +12,9 @@ import (
 	"github.com/go-macaroon-bakery/macaroon-bakery/v3/bakery"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/cmd/migrate-db/internal"
-	"github.com/canonical/candid/store"
-	"github.com/canonical/candid/store/memstore"
+	"github.com/kian99/candid/cmd/migrate-db/internal"
+	"github.com/kian99/candid/store"
+	"github.com/kian99/candid/store/memstore"
 )
 
 var splitStoreSpecificationTests = []struct {

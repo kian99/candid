@@ -15,8 +15,8 @@ import (
 	"github.com/juju/utils/v2/debugstatus"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/meeting"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/meeting"
+	"github.com/kian99/candid/store"
 )
 
 const aclsCollection = "acls"

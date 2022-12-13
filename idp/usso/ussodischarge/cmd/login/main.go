@@ -17,8 +17,8 @@ import (
 	"gopkg.in/httprequest.v1"
 	"gopkg.in/macaroon.v2"
 
-	"github.com/canonical/candid/candidclient"
-	"github.com/canonical/candid/candidclient/ussodischarge"
+	"github.com/kian99/candid/candidclient"
+	"github.com/kian99/candid/candidclient/ussodischarge"
 )
 
 var (

@@ -12,7 +12,7 @@ import (
 	"github.com/juju/gnuflag"
 	"gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/params"
+	"github.com/kian99/candid/params"
 )
 
 type showCommand struct {

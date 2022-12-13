@@ -16,7 +16,7 @@ import (
 	"gopkg.in/httprequest.v1"
 	macaroon "gopkg.in/macaroon.v2"
 
-	"github.com/canonical/candid/candidclient"
+	"github.com/kian99/candid/candidclient"
 )
 
 var agentBakeryKey bakery.KeyPair

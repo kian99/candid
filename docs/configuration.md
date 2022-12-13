@@ -190,7 +190,7 @@ that is found.
 The agent identity provider is a custom provider that is always configured, and allows non-interactive
 logins to clients using public-key authentication.
 the agent protocol to log in. See
-https://github.com/canonical/candid/blob/master/docs/login.txt
+https://github.com/kian99/candid/blob/master/docs/login.txt
 for details on the agent login protocol.
 
 ### UbuntuSSO

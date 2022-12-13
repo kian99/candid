@@ -12,7 +12,7 @@ import (
 	"github.com/juju/mgo/v2/bson"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/store"
 )
 
 const identitiesCollection = "identities"

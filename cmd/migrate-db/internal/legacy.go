@@ -11,9 +11,9 @@ import (
 	mgo "github.com/juju/mgo/v2"
 	errgo "gopkg.in/errgo.v1"
 
-	"github.com/canonical/candid/cmd/migrate-db/internal/mongodoc"
-	"github.com/canonical/candid/internal/auth"
-	"github.com/canonical/candid/store"
+	"github.com/kian99/candid/cmd/migrate-db/internal/mongodoc"
+	"github.com/kian99/candid/internal/auth"
+	"github.com/kian99/candid/store"
 )
 
 const (
